@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TestComponent } from './test/test.component';
 import { DwtComponent } from './dwt/dwt.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,TestComponent,DwtComponent],
+  imports: [RouterOutlet,DwtComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
